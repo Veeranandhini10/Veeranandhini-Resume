@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veeranandhini S | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6fb;
+            color: #263247;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #101b46, #5145cd);
+            color: white;
+            text-align: center;
+            padding: 65px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 17px;
+        }
+
+        nav {
+            margin-top: 25px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 8px 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #facc15;
+        }
+
+        .hero {
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            color: #5145cd;
+            font-size: 28px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            margin: 10px auto;
+        }
+
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            padding: 28px;
+            margin: 22px 0;
+            border-radius: 14px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        section h2 {
+            color: #5145cd;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #e4e7ff;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            margin: 10px 0;
+            color: #263247;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills span {
+            background: #e8e9ff;
+            color: #3730a3;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .project {
+            background: #f8f8ff;
+            border-left: 4px solid #5145cd;
+            padding: 18px;
+            border-radius: 8px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #5145cd;
+            color: white;
+            text-decoration: none;
+            padding: 11px 22px;
+            margin: 10px 5px 0 0;
+            border-radius: 7px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #3730a3;
+        }
+
+        .contact a {
+            color: #5145cd;
+        }
+
+        footer {
+            text-align: center;
+            background: #101b46;
+            color: white;
+            padding: 22px;
+            margin-top: 35px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 27px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>VEERANANDHINI S</h1>
+        <p>BCA Student | Aspiring Software Developer</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Hello, Welcome to My Portfolio!</h2>
+        <p>
+            I am Veeranandhini S, a BCA student passionate about
+            programming, web development, and Artificial Intelligence.
+            I enjoy learning new technologies and building useful projects.
+        </p>
+        <a class="button" href="#projects">View My Projects</a>
+    </div>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a Bachelor of Computer Applications student interested
+                in software development and computer technologies.
+                I am eager to improve my technical knowledge, develop
+                practical skills, and explore new opportunities in IT.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <p><strong>University:</strong> Madurai Kamaraj University</p>
+            <p>
+                <strong>College:</strong>
+                Arumugham Palaniguru Arts and Science College for Women
+            </p>
+            <p><strong>Status:</strong> Currently pursuing</p>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills">
+                <span>Python</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>MySQL</span>
+                <span>Flask</span>
+                <span>OpenCV</span>
+                <span>YOLO</span>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <div class="project">
+                <h3>AI-Based Animal Detection and Alert System</h3>
+                <p>
+                    This project aims to detect animals entering agricultural
+                    fields using Artificial Intelligence and computer vision.
+                    It helps farmers receive alerts and reduces crop damage.
+                </p>
+                <p>
+                    <strong>Technologies:</strong>
+                    Python, Flask, OpenCV, YOLO, MySQL, HTML, CSS, JavaScript
+                </p>
+            </div>
+
+        </section>
+
+        <section id="strengths">
+            <h2>Personal Strengths</h2>
+            <ul>
+                <li>Willingness to learn new technologies</li>
+                <li>Problem-solving interest</li>
+                <li>Teamwork and cooperation</li>
+                <li>Dedication to completing tasks</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+
+            <p>
+                <strong>Name:</strong> Veeranandhini S
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                Add your email address here
+            </p>
+
+            <p>
+                <strong>Phone:</strong>
+                Add your phone number here
+            </p>
+
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/Veeranandhini10"
+                   target="_blank" rel="noopener noreferrer">
+                    Visit My GitHub Profile
+                </a>
+            </p>
+
+            <p>
+                Update your email and phone number before publishing.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Veeranandhini S | My Portfolio</p>
+        <p>Designed with passion and dedication.</p>
+    </footer>
+
+</body>
+</html>
